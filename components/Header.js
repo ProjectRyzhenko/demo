@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 
 
+
 export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
