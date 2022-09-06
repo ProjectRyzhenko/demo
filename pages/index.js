@@ -50,7 +50,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
 
-            <img src='https://cdn.pixabay.com/photo/2022/03/19/08/01/heart-7078029_960_720.png'/> 
+            <img src='https://cdn.pixabay.com/photo/2022/03/07/10/52/ukraine-7053406_960_720.png'/> 
                    
             <div>
                 <p>ПРО БОТ</p>

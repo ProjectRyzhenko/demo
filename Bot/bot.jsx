@@ -1,6 +1,3 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import ContactImg from '../public/assets/contact.jpg'
 
 const { Telegraf } = require("telegraf");
 const TOKEN = "5732265646:AAE5aqq3BCa4CNLjS2soFLjQ2s0h2nZms-w";
