@@ -8,11 +8,13 @@
     "Tara Manicsic",
     "Thom Krupa"
   ],
-  "homepage": "https://github.com/netlify-templates/nextjs-blog-theme",
+  "homepage": "https:///ProjectRyzhenko/github.io/demo",
   "bugs": {
     "url": "https://github.com/netlify-templates/nextjs-blog-theme/issues"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next",
     "dev:watch": "next-remote-watch ./posts",
     "build": "next build",
