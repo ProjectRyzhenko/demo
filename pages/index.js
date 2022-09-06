@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 
+import Image from 'next/image';
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -22,7 +24,8 @@ export default function Index({ posts, globalData }) {
 
         <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
-                   
+
+                              
             <div>
                 <p>ПІДТРИМКА УКРАЇНЦІВ</p>
                 <p className='py-4 text-justify '>
@@ -46,6 +49,8 @@ export default function Index({ posts, globalData }) {
           {/* Про Бот */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
+
+            <img src='https://cdn.pixabay.com/photo/2022/03/19/08/01/heart-7078029_960_720.png'/> 
                    
             <div>
                 <p>ПРО БОТ</p>
@@ -72,7 +77,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            
+            <img src='https://cdn.pixabay.com/photo/2022/03/28/18/28/ukraine-7098106_960_720.png'/>
           
             <div>
                 <h2 className='py-2 text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
@@ -104,7 +109,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            
+            <img src='https://cdn.pixabay.com/photo/2022/04/14/04/18/pray-for-ukraine-7131582_960_720.png'/>
           
             <div>
                 <h2 className='py-2text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
@@ -136,8 +141,8 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            
-          
+            <img src='https://cdn.pixabay.com/photo/2022/03/25/02/01/peace-7090133_960_720.png'/>
+                    
             <div>
                 <h2 className='py-2 text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
                  а также содержания (целевой) помощи. Различают благотворительность, как проявление сострадания к ближнему 
@@ -168,6 +173,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
+            <img src='https://cdn.pixabay.com/photo/2022/03/13/05/00/ukraine-7065297_960_720.png'/>
            
           
             <div>
