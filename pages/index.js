@@ -8,8 +8,6 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
-import Image from 'next/image';
-import ContactImg from '../public/assets/contact.jpg'
 
 export default function Index({ posts, globalData }) {
   return (
@@ -74,13 +72,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
-            </div>
+            
           
             <div>
                 <h2 className='py-2 text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
@@ -112,13 +104,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
-            </div>
+            
           
             <div>
                 <h2 className='py-2text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
@@ -150,13 +136,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
-            </div>
+            
           
             <div>
                 <h2 className='py-2 text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
@@ -188,13 +168,7 @@ export default function Index({ posts, globalData }) {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
           
-            <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
-            </div>
+           
           
             <div>
                 <h2 className='py-2 text-justify'>Основной чертой благотворительности является добровольный выбор вида, времени и места,
